@@ -18,14 +18,12 @@ public class LeapYear
 
             if((year%4==0 && year%100!=0)||(year%400==0))
             {
-                System.out.println(year);
-                count++;
-
+                System.out.println(year+" is leap year");
             }
-            // count++; 
-      }  
-      System.out.println("=======!=======");
-
-      System.out.println(count);
+            else
+            {
+                System.out.println(year+" is a not leap year");
+            }
+       }  
     }
 }
