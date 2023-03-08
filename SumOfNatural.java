@@ -3,8 +3,8 @@ import java.util.*;
 
 public class SumOfNatural 
 {
-     static void main(String[] args) 
-+    {
+     public static void main(String[] args) 
+     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter numbers:");
         int iNo1 = sc.nextInt();
@@ -19,12 +19,8 @@ public class SumOfNatural
         for(int i = num1; i <= num2; i++)
         {
             sum = sum+i;
-        }  +
+        } 
         return sum;
     }
-    
-    
-    
-    
     
 }
