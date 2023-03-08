@@ -11,18 +11,18 @@ public class Greter
         int iNo2 = sc.nextInt();
         int iNo3 = sc.nextInt();
 
-        // if(iNo1 > iNo2 && iNo1 > iNo2)
-        // {
-        //     System.out.println(iNo1);
-        // }
-        // else if(iNo2 > iNo1 && iNo2 > iNo3) 
-        // {
-        //    System.out.println(iNo2);
-        // }
-        // else 
-        // {
-        //     System.out.println(iNo3);
-        // }
+         if(iNo1 > iNo2 && iNo1 > iNo2)
+         {
+             System.out.println(iNo1);
+         }
+         else if(iNo2 > iNo1 && iNo2 > iNo3) 
+         {
+            System.out.println(iNo2);
+         }
+         else 
+         {
+             System.out.println(iNo3);
+         }
     }
     
 }
