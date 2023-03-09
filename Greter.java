@@ -1,3 +1,10 @@
+/*
+Example
+Input : num1 = 12 , num2 = 3 , num3= 15
+Output : 15
+*/
+
+
 import java.lang.*;
 import java.util.*;
 
