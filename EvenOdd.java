@@ -1,3 +1,11 @@
+/*
+Example 
+Input : num = 11
+Output : Odd
+*/
+
+
+
 import java.lang.*;
 import java.util.*;
 public class EvenOdd
