@@ -1,3 +1,14 @@
+/*
+N > 0 then, number is Positive.
+N < 0 then, number is Negative.
+N = 0 then, number is Zero.
+
+
+Example
+Input : num = 11
+Output : Positive
+*/
+
 import java.lang.*;
 import java.util.*;
 
