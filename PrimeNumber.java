@@ -27,7 +27,9 @@ public class PrimeNumber
        }
        else
        {
-       boolean check = true;
+        boolean check = true;
+       }
+        
        for(int i = 2; i <= num/2; i++)
        {
         if(num%i==0)
