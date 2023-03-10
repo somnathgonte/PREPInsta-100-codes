@@ -23,29 +23,27 @@ public class PrimeNumber
     {
        if(num==0 || num==1)
        {
-        System.out.println("not prime");
+           System.out.println("not prime");
        }
        else
        {
-        boolean check = true;
-       }
-        
-       for(int i = 2; i <= num/2; i++)
-       {
-        if(num%i==0)
-        {
-            check = false;
-            break;
-        }
-       } 
-       if(check == false)
-       {
-        System.out.println("Not prime");
-       }
-       else 
-       {
-        System.out.println("Prime");
-       }
+           boolean check = true;  
+           for(int i = 2; i <= num/2; i++)
+           {
+              if(num%i==0)
+              {
+                 check = false;
+                 break;
+              }
+          }
+          if(check == false)
+          {
+             System.out.println("Not prime");
+          }
+          else 
+          {
+            System.out.println("Prime");
+          }
       }
     }
 }
