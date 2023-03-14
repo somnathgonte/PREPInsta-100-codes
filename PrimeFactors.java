@@ -16,15 +16,7 @@ public class PrimeFactors
         {
             if(iNo1%i==0)
             {
-                boolean c = true;
-                for( int j = 2; j <= i/2; j++)
-                {
-                    if(i%j==0)
-                    {   c=false;
-                        break;
-                    }  
-                }
-                if(c)
+                if(i == 2 || i%2 != 0)
                 {
                     System.out.println(i);
                 }
