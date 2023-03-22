@@ -31,6 +31,5 @@ public class SumOfNatural
             sum = sum+i;
         } 
         return sum;
-    }
-    
+    }   
 }
